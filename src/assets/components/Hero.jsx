@@ -43,12 +43,12 @@ const Hero = ({ scrollContainer }) => {
           </div>
         </div>
       </div>
-      <img className="parallax__stars" data-speed="0.8" src="src/assets/parallax/1Stars.svg" alt="Stars"/>
-      <img className="parallax__planets" data-speed="0.7" src="src/assets/parallax/2Planets.svg" alt="Planets"/>
-      <img className="parallax__mountain1" data-speed="0.5" src="src/assets/parallax/3Mountain.svg" alt="Mountain"/>
-      <img className="parallax__mountain2" data-speed="0.4" src="src/assets/parallax/4Mountain.svg" alt="Mountain"/>
-      <img className="parallax__crater" data-speed="0.3" src="src/assets/parallax/5Crater.svg" alt="Crater"/>
-      <img className="parallax__sun" data-speed="0.6" src="src/assets/parallax/6Sun.svg" alt="Sun"/>
+      <img className="parallax__stars" data-speed="0.8" src="./parallax/1Stars.svg" alt="Stars"/>
+      <img className="parallax__planets" data-speed="0.7" src="./parallax/2Planets.svg" alt="Planets"/>
+      <img className="parallax__mountain1" data-speed="0.5" src="./parallax/3Mountain.svg" alt="Mountain"/>
+      <img className="parallax__mountain2" data-speed="0.4" src="./parallax/4Mountain.svg" alt="Mountain"/>
+      <img className="parallax__crater" data-speed="0.3" src="./parallax/5Crater.svg" alt="Crater"/>
+      <img className="parallax__sun" data-speed="0.6" src="./parallax/6Sun.svg" alt="Sun"/>
       <SpacemanCanvas scrollContainer={scrollContainer} />
     </section>
   );
