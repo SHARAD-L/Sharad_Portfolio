@@ -33,7 +33,7 @@ import {
   
   const services = [
     {
-      title: "Web Development",
+      title: "Web Dev",
       icon: html,
     },
     {
@@ -41,15 +41,15 @@ import {
       icon: reactjs,
     },
     {
-      title: "C++/C/Java",
+      title: "Java",
       icon: programming,
     },
     {
-      title: "JavaScript",
+      title: "JS",
       icon: javascript,
     },
     {
-      title: "UI/UX Designing",
+      title: "UI/UX",
       icon: figma,
     },
   ];
