@@ -41,11 +41,11 @@ import {
       icon: reactjs,
     },
     {
-      title: "C++/C/Java",
+      title: "Java",
       icon: programming,
     },
     {
-      title: "JavaScript",
+      title: "JS",
       icon: javascript,
     },
     {
