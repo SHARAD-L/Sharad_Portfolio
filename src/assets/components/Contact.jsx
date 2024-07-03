@@ -29,6 +29,11 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    // Log the environment variables
+    console.log('Service ID:', import.meta.env.VITE_APP_EMAILJS_SERVICE_ID);
+    console.log('Template ID:', import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID);
+    console.log('Public Key:', import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
+
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
@@ -45,7 +50,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you, will get back to you shortly!");
+          alert("Thank you. I will get back to you as soon as possible.");
 
           setForm({
             name: "",
@@ -55,7 +60,7 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console.error(error);
+          console.error('EmailJS Error:', error);
 
           alert("Ahh, something went wrong. Please try again.");
         }
